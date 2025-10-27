@@ -388,6 +388,31 @@ ol li:before {
     color: #999;
 }
 
+/* Styles pour le bouton YouTube */
+.youtube-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ff0000;
+    color: white !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.youtube-link:hover {
+    background: #cc0000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-icon {
+    font-size: 1.2em;
+}
+
 /* Adaptation mobile */
 @media (max-width: 768px) {
     h1 {
