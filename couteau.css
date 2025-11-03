@@ -1,4 +1,4 @@
-/* Réinitialisation et styles de base */
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +39,6 @@ body {
     padding-bottom: 20px;
 }
 
-/* Contenu principal */
 .main-content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,7 +47,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Pied de page */
 .site-footer {
     flex-shrink: 0;
     width: 100%;
@@ -57,7 +55,6 @@ body {
     margin-top: auto;
 }
 
-/* Contenu principal */
 .main-content {
     position: relative;
     z-index: 1;
@@ -72,7 +69,6 @@ body {
     transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* En-tête */
 header {
     text-align: center;
     padding: 40px 0;
@@ -98,7 +94,6 @@ h1 {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Contenu */
 .content-section {
     max-width: 800px;
     margin: 0 auto;
@@ -126,7 +121,6 @@ h2:after {
     background: linear-gradient(90deg, #ffd700, transparent);
 }
 
-/* Styles pour les liens et boutons */
 a, a:link {
     color: #ffffff;
     text-decoration: none;
@@ -151,7 +145,6 @@ a:active {
     transform: translateY(1px);
 }
 
-/* Boutons */
 .button, button, input[type="submit"], input[type="button"],
 .nav-link {
     transition: all 0.3s ease;
@@ -178,7 +171,6 @@ p {
     color: #e0e0e0;
 }
 
-/* Liste stylisée */
 ol {
     counter-reset: item;
     margin: 25px 0;
@@ -209,7 +201,6 @@ ol li:before {
     font-size: 0.9em;
 }
 
-/* Image du contenu */
 .content-image {
     width: 100%;
     max-width: 600px;
@@ -220,9 +211,6 @@ ol li:before {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Liens et navigation */
-
-/* Bouton de retour */
 .youtube-link {
     display: flex;
     align-items: center;
@@ -249,7 +237,6 @@ ol li:before {
     font-size: 1.2em;
 }
 
-/* Style pour l'histoire de succès */
 .success-story {
     margin-top: 20px;
     text-align: center;
@@ -294,7 +281,6 @@ ol li:before {
     text-decoration: underline;
 }
 
-/* En-tête principal */
 .main-header {
     text-align: center;
     padding: 40px 0;
@@ -308,7 +294,6 @@ ol li:before {
     margin-top: 10px;
 }
 
-/* Sections de contenu */
 .intro-text {
     font-size: 1.2em;
     line-height: 1.7;
@@ -422,7 +407,6 @@ ol li:before {
     margin: 0;
 }
 
-/* Section des guides */
 .articles-preview {
     margin-top: 100px;
     padding-top: 60px;
@@ -479,7 +463,6 @@ ol li:before {
     }
 }
 
-/* Cartes d'articles */
 .articles-preview {
     margin: 60px 0 40px;
 }
@@ -679,7 +662,7 @@ ol li:before {
 }
 
 .footer-section h3 {
-    color: #FFD700; /* Jaune doré comme dans le corps */
+    color: #FFD700; 
     font-size: 16px;
     font-weight: 600;
     position: relative;
@@ -690,18 +673,15 @@ ol li:before {
     text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
 }
 
-/* Styles pour la section de contact */
 .contact-section {
     grid-column: span 1;
 }
 
-/* Style pour l'email dans le footer */
 .contact-email {
     margin: 8px 0;
     padding: 0;
 }
 
-/* Styles pour les liens de contact et réseaux sociaux */
 .contact-section > * {
     margin: 8px 0;
     width: 100%;
@@ -740,7 +720,6 @@ ol li:before {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style spécifique pour le lien Buff163 */
 .buff-link {
     color: #ff4d4d !important;
 }
@@ -750,7 +729,6 @@ ol li:before {
     text-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
 }
 
-/* Styles du pied de page */
 .footer-section p, 
 .footer-section a,
 .footer-section a:link, 
@@ -789,7 +767,6 @@ ol li:before {
     opacity: 0.7;
 }
 
-/* Style pour le tag "Nouveau" */
 .new-tag {
     display: inline-block;
     background: #ff4d4d;
@@ -805,7 +782,6 @@ ol li:before {
     vertical-align: middle;
 }
 
-/* Pied de page inférieur */
 .footer-bottom {
     background: #0a0c0e;
     padding: 20px 0;
@@ -826,7 +802,6 @@ ol li:before {
     text-decoration: underline;
 }
 
-/* Bouton YouTube */
 .youtube-link {
     display: inline-flex;
     align-items: center;
@@ -851,7 +826,6 @@ ol li:before {
     font-size: 1.2em;
 }
 
-/* Adaptation mobile */
 @media (max-width: 768px) {
     h1 {
         font-size: 2.5em;
